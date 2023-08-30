@@ -145,6 +145,7 @@ if [ -z "${COMPILER}" ] ; then
   case ${PLATFORM} in
     jet|hera) COMPILER=intel ;;
     orion) COMPILER=intel ;;
+    hercules) COMPILER=intel ;;
     wcoss2) COMPILER=intel ;;
     cheyenne) COMPILER=intel ;;
     macos) COMPILER=gccgfortran ;;
